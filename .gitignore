@@ -1,0 +1,54 @@
+# Ignore all CSV files by default
+*.csv
+
+# Exclude small CSV files explicitly (adjust based on your needs)
+!actual_matrix.csv
+!markdowns.csv
+!stores.csv
+!sample_submission.csv
+
+# Ignore other large CSV files (manually add if required)
+!catalog.csv
+!discounts_history.csv
+!online.csv
+!price_history.csv
+!sales.csv
+!test.csv
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# Cache files
+*.cache
+*.log
+*.tmp
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.eggs/
+*.wheel
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Miscellaneous
+logs/
+output/
+data/
